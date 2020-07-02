@@ -1,0 +1,27 @@
+<button mat-button class="btnVoltar" (click)="back()">
+    <i class="material-icons v-middle">
+        arrow_back_ios
+    </i>
+    Voltar
+</button>
+<mat-card>
+    <mat-card-title>Novo Produto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome do Produto" [(ngModel)]="product.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" [(ngModel)]="product.price" name="price">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button class="btnCadastrar" (click)="createProduct()" color="primary">
+        Cadastrar
+    </button>
+
+    <button mat-button class="btnCancelar" (click)="cancel()" color="primary">
+        <i class="material-icons v-middle">
+            close
+        </i>
+        Cancelar
+    </button>
+</mat-card>

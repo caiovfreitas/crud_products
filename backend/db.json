@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "name": "Garrafa",
+      "price": "15",
+      "id": 1
+    },
+    {
+      "name": "Câmera",
+      "price": "850",
+      "id": 2
+    },
+    {
+      "name": "Bolsa",
+      "price": "150",
+      "id": 3
+    }
+  ]
+}
