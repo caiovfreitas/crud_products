@@ -17,6 +17,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .msg-error{
-    background-color: #e70000;
+    background-color: #fd6262;
     color: #ffff;
 }
